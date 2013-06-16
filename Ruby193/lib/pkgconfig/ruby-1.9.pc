@@ -1,0 +1,44 @@
+arch=i386-mingw32
+sitearch=i386-msvcrt
+prefix=c:/temp/Ruby193
+exec_prefix=${prefix}
+bindir=${exec_prefix}/bin
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+MAJOR=1
+MINOR=9
+TEENY=1
+ruby_version=1.9.1
+RUBY_PROGRAM_VERSION=1.9.3
+RUBY_BASE_NAME=ruby
+RUBY_SO_NAME=msvcrt-${RUBY_BASE_NAME}191
+RUBY_INSTALL_NAME=${RUBY_BASE_NAME}
+DEFFILE=
+LIBPATH=
+LIBRUBY_A=lib${RUBY_SO_NAME}-static.a
+LIBRUBY_SO=${RUBY_SO_NAME}.dll
+LIBRUBY=lib${RUBY_SO_NAME}.dll.a
+LIBRUBYARG_SHARED=-l${RUBY_SO_NAME}
+LIBRUBYARG_STATIC=-l${RUBY_SO_NAME}-static
+LIBRUBYARG=${LIBRUBYARG_SHARED}
+LIBS=-lshell32 -lws2_32 -limagehlp -lshlwapi 
+DLDFLAGS= -Wl,--enable-auto-image-base,--enable-auto-import ${DEFFILE}
+ruby=${bindir}/${RUBY_INSTALL_NAME}.exe
+rubylibprefix=${libdir}/${RUBY_BASE_NAME}
+rubylibdir=${rubylibprefix}/${ruby_version}
+vendordir=${rubylibprefix}/vendor_ruby
+sitedir=${rubylibprefix}/site_ruby
+rubyarchdir=${rubylibdir}/${arch}
+vendorarchdir=${vendordir}/${sitearch}
+sitearchdir=${sitedir}/${sitearch}
+rubyhdrdir=${includedir}/${RUBY_BASE_NAME}-${ruby_version}
+vendorhdrdir=${rubyhdrdir}/vendor_ruby
+sitehdrdir=${rubyhdrdir}/site_ruby
+
+Name: Ruby
+Description: Object Oriented Script Language
+Version: ${ruby_version}
+URL: http://www.ruby-lang.org
+Cflags: -I${rubyhdrdir}/${arch} -I${rubyhdrdir}
+Libs: ${DLDFLAGS} ${LIBRUBYARG_SHARED} ${LIBS}
+Requires:

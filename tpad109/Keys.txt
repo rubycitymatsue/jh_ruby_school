@@ -1,0 +1,81 @@
+[ファイル]
+  新規作成                Ctrl+N
+  開く                    Ctrl+O
+  再読込                  F5
+  上書き保存              Ctrl+S
+  名前を付けて保存        Shift+Ctrl+S
+  折り返し反映            Ctrl+Alt+S(上書き保存)
+  折り返し反映後終了      Ctrl+Alt+E(上書き保存)
+  印刷                    Ctrl+P
+  保存して閉じる          Ctrl+E
+  閉じる                  Ctrl+W
+
+[編集]
+  元に戻す                Ctrl+Z（Alt+Bs）
+  やり直し                Ctrl+Y
+  切り取り                Ctrl+X（Shift+Del）
+  コピー                  Ctrl+C（Ctrl+Ins）
+  折り返し反映コピー      Shift+Ctrl+C
+  貼り付け                Ctrl+V（Shift+Ins）
+  引用符付き貼り付け      Ctrl+Q
+  矩形貼り付け            Ctrl+K
+  行削除                  Ctrl+Enter
+  すべて選択              Ctrl+A
+  矩形選択                Ctrl+B
+  矩形選択                Shift+Alt+矢印
+  フリーカーソル          Shift+Ctrl+F
+  書き換え禁止            Shift+Ctrl+N
+
+[変換]
+  小文字に変換            Ctrl+L
+  大文字に変換            Shift+Ctrl+L
+  半角に変換              Ctrl+G
+  全角に変換              Shift+Ctrl+G
+  TAB,TABインデント       Tab（Ctrl+I）
+  TAB逆インデント         Shift+Tab
+  空白インデント          Shift+Ctrl+I
+  空白逆インデント        Shift+Ctrl+U
+  折り返しへ改行挿入      Ctrl+T
+  改行削除                Shift+Ctrl+T
+
+[検索]
+  検索                    Ctrl+F
+  上を検索                Shift+F3
+  下を検索                F3
+  置換                    Ctrl+R
+  行指定                  Ctrl+J
+  対応する括弧            Ctrl+[
+
+[表示]
+  **桁で折り返し          Shift+Ctrl+W
+  折り返し桁指定          Shift+Ctrl+O/1-9
+  テキストサイズ表示      F4
+  桁基準線                Shift+Ctrl+\
+
+[ウィンドウ]
+  ユーザー指定            Ctrl+Alt+W
+  画面分割                Ctrl+F5
+  分割間移動              Ctrl+Alt+A
+  次                      Ctrl+Tab
+  前                      Shift+Ctrl+Tab
+
+[ツール]
+  IEでプレビュー          F11
+  Firefoxでプレビュー     F12
+
+[ヘルプ]
+  ヘルプ表示              F1
+  ショートカットキー表示  Shift+F1
+
+[その他]
+  改行                    Ctrl+M
+  前の一字を削除          Ctrl+H
+  次の単語の頭へ移動      Ctrl+←,→
+  行頭へ移動              Home
+  行末へ移動              End
+  縦スクロール            Ctrl+↑,↓
+  ページスクロール        Page Up/Down
+  半ページスクロール      Ctrl+Page Up/Down
+  文書の先頭へ移動        Ctrl+Home
+  文書の最後へ移動        Ctrl+End
+  再描画                  Shift+F5
